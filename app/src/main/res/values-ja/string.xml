@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AT</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_select">SelectActivity</string>
+    <string name="title_activity_date_detail">DateDetailActivity</string>
+    <string name="title_activity_date_picker">DatePickerActivity</string>
+    <string name="title_activity_time_detail">TimeDetailActivity</string>
+    <string name="title_activity_update_default_at">UpdateDefaultATActivity</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_recipe">RecipeActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+
+    <!--activity_main-->
+    <string name="blank_text">しいATを作ってみてください。ｌ</string>
+
+
+    <!--activity_date_detail-->
+    <string name="input_at_name">ATタイトルを入力してください。</string>
+    <string name="input_date_start_end">開始日付 - 終了日付</string>
+    <string name="input_date_select">日付設定</string>
+    <string name="tab_widget_period">期間</string>
+    <string name="tab_widget_date">日付</string>
+    <!--activity_time_detail-->
+    <string name="input_time_start_end">開始時間 - 終了時間</string>
+    <!--activity_custom_detail-->
+    <string name="input_time_start">開始</string>
+    <string name="input_time_now">現在</string>
+    <string name="input_time_end">終了</string>
+    <string name="input_time_unit">単位</string>
+
+
+    <!--at_recyclerview_and_widget_module-->
+    <string name="select_character">キャラクター選択</string>
+    <string name="show_hide_widget">WIDGET</string>
+    <string name="show_hide_status">STATUS BAR 表示する/隠す</string>
+    <string name="delete_update">削除</string>
+
+    <!--activity_recipe-->
+    <string name="daily">今日</string>
+    <string name="weekly">今週</string>
+    <string name="monthly">今月</string>
+    <string name="yearly">今年</string>
+    <string name="life_time">生涯</string>
+    <string name="default_exam">試験</string>
+    <string name="default_anniv">記念日</string>
+    <string name="default_exercise">運動時間</string>
+    <string name="default_diet">ダイエット</string>
+
+
+    <!--activity_select-->
+    <string name="date">日付</string>
+    <string name="final_exam_anniversary">試験、受験、記念日</string>
+    <string name="time">時間</string>
+    <string name="exercise_work_hour">運動時間、授業時間、業務時間</string>
+    <string name="custom">カスタマイズ</string>
+    <string name="diet_book_custom">ダイエット、読書</string>
+    <string name="recipe">レシピ</string>
+    <string name="basic_ats">活用度がたかいオススメのAT</string>
+
+    <!--activity_update_default_at-->
+    <string name="how_old_are_you">おとしを入力してください。</string>
+
+    <!--activity_update_weeklyday_at-->
+    <string name="START_DAY">開始曜日</string>
+    <string name="SUN">日曜日</string>
+    <string name="MON">月曜日</string>
+
+    <!--undo_row-->
+    <string name="delete">削除</string>
+    <string name="cancel">とじる</string>
+
+    <!--inapp_alertdialog-->
+    <string name="alert_buy">購買 $1.09</string>
+    <string name="alert_restore">購買復旧</string>
+    <string name="alert_title">あっっ!</string>
+    <string name="alert_message">購買できませんでした。もう一度トライしてみてください。</string>
+    <string name="alert_ok">とじる</string>
+    <string name="alert_positive">了解</string>
+    <string name="alert_free">無料でゲット</string>
+    <string name="alert_fatal_error_title">決済エラー</string>
+    <string name="alert_fatal_error_message">\n\n"予想できなかった決済エラーが生じました。\n
+favorie@favorie.coまでご連絡お願いいたします。"</string>
+
+    <!--alarm_alertdialog-->
+    <string name="alarm_ok">了解</string>
+    <string name="alarm_top_free_events">無料でゲット!</string>
+    <string name="alarm_top_one_plus_one">１個購買でもう１つがゲット</string>
+
+    <!--delete_alertdialog-->
+    <string name="delete_alert_title">削除</string>
+    <string name="delete_alert_contents">本当に削除していいですか？</string>
+    <string name="delete_alert_positive">了解</string>
+    <string name="delete_alert_negative">とじる</string>
+
+    <!--inapp toast-->
+    <string name="inapp_success">購買完了!</string>
+    <string name="inapp_already_purchase">すでに購買完了できてますー</string>
+
+
+
+    <!--fragment_time_picker-->
+    <string name="pick_time">時間を設定してください。</string>
+    <string name="start_time">開始時間</string>
+    <string name="end_time">終了時間</string>
+
+    <!--for java code-->
+    <string name="done">完了</string>
+    <string name="great">よくできました！</string>
+    <string name="when_start_date">開始日付を設定してください。</string>
+    <string name="when_end_date">終了日付を設定してください。</string>
+    <string name="when_select_date">日付を設定してください。</string>
+    <string name="select_year">年度選択</string>
+
+
+    <!--default 5 datum-->
+    <string name="default_yearly">今年</string>
+    <string name="default_monthly">今月</string>
+    <string name="default_weekly">今週</string>
+    <string name="default_daily">今日</string>
+    <string name="default_life_time">生涯</string>
+
+    <!--MONTHLY, WEEKLY-->
+    <string name="sunday">日</string>
+    <string name="monday">月</string>
+    <string name="tuesday">火</string>
+    <string name="wednesday">水</string>
+    <string name="thursday">木</string>
+    <string name="friday">金</string>
+    <string name="saturday">土</string>
+
+    <string name="january">1月</string>
+    <string name="february">2月</string>
+    <string name="march">3月</string>
+    <string name="april">4月</string>
+    <string name="may">5月</string>
+    <string name="june">6月</string>
+    <string name="july">7月</string>
+    <string name="august">8月</string>
+    <string name="september">9月</string>
+    <string name="october">10月</string>
+    <string name="november">11月</string>
+    <string name="december">12月</string>
+
+</resources>

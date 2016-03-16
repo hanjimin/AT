@@ -1,0 +1,178 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.favorie.at.SelectActivity">
+
+    <include
+        android:id="@+id/select_activity_action_bar"
+        layout="@layout/at_action_detail_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="86dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"></include>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/select_activity_action_bar"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#abd8cc">
+
+            <View
+                android:id="@+id/select_activity_date_layout_center"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true" />
+
+            <Button
+                android:id="@+id/select_activity_button_date"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00ffffff" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_above="@+id/select_activity_date_layout_center"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/date"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:layout_below="@+id/select_activity_date_layout_center"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/final_exam_anniversary"
+                android:textColor="#71aa99"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#fee1a1">
+
+            <View
+                android:id="@+id/select_activity_time_layout_center"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true" />
+
+            <Button
+                android:id="@+id/select_activity_button_time"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00ffffff" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_above="@+id/select_activity_time_layout_center"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/time"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:layout_below="@+id/select_activity_time_layout_center"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/exercise_work_hour"
+                android:textColor="#e2aa47"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#f4b98c">
+
+            <View
+                android:id="@+id/select_activity_custom_layout_center"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true" />
+
+            <Button
+                android:id="@+id/select_activity_button_custom"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00ffffff" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:layout_above="@+id/select_activity_custom_layout_center"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/custom"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:layout_below="@+id/select_activity_custom_layout_center"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/diet_book_custom"
+                android:textColor="#d37e44"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#f6a96e">
+
+            <View
+                android:id="@+id/select_activity_recipe_layout_center"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true" />
+
+            <Button
+                android:id="@+id/select_activity_button_recipe"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00ffffff" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:layout_above="@+id/select_activity_recipe_layout_center"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/recipe"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:layout_below="@+id/select_activity_recipe_layout_center"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/basic_ats"
+                android:textColor="#d57737"
+                android:textSize="16dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

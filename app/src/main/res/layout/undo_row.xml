@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/undo_row_cell"
+    android:layout_width="match_parent"
+    android:layout_height="111dp">
+
+    <View
+        android:id="@+id/undo_row_center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/undo_row_left_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignEnd="@+id/undo_row_center"
+        android:layout_alignParentStart="true"
+        android:background="#e64b55"
+        android:text="@string/delete"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/undo_row_right_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/undo_row_left_button"
+        android:background="#969696"
+        android:text="@string/cancel"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+</RelativeLayout>

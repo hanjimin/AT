@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#70BCC4"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/at_cardview_character_cardview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="#70BCC4"
+        card_view:cardCornerRadius="0dp"
+        card_view:cardElevation="0dp"
+        card_view:cardPreventCornerOverlap="false"
+        card_view:cardUseCompatPadding="true"
+        card_view:contentPadding="0dp">
+
+        <RelativeLayout
+            android:layout_width="61dp"
+            android:layout_height="91dp">
+
+            <ImageView
+                android:id="@+id/at_cardview_character_indicator"
+                android:layout_width="18dp"
+                android:layout_height="16dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/indicator" />
+
+            <ImageView
+                android:id="@+id/at_cardview_character_imageview"
+                android:layout_width="61dp"
+                android:layout_height="81dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitCenter" />
+            <ImageView
+                android:id="@+id/at_cardview_character_band"
+                android:layout_width="61dp"
+                android:layout_height="81dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitCenter" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

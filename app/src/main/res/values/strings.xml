@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">AT</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_select">SelectActivity</string>
+    <string name="title_activity_date_detail">DateDetailActivity</string>
+    <string name="title_activity_date_picker">DatePickerActivity</string>
+    <string name="title_activity_time_detail">TimeDetailActivity</string>
+    <string name="title_activity_update_default_at">UpdateDefaultATActivity</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_recipe">RecipeActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+
+    <!--activity_main-->
+    <string name="blank_text">Make a new AT!!</string>
+
+
+    <!--activity_date_detail-->
+    <string name="input_at_name">INPUT AT NAME</string>
+    <string name="input_date_start_end">START DATE - END DATE</string>
+    <string name="input_date_select">SELECT DATE</string>
+    <string name="tab_widget_period">PERIOD</string>
+    <string name="tab_widget_date">DATE</string>
+    <!--activity_time_detail-->
+    <string name="input_time_start_end">START TIME - END TIME</string>
+    <!--activity_custom_detail-->
+    <string name="input_time_start">START</string>
+    <string name="input_time_now">NOW</string>
+    <string name="input_time_end">END</string>
+    <string name="input_time_unit">UNIT</string>
+
+
+    <!--at_recyclerview_and_widget_module-->
+    <string name="select_character">SELECT CHARACTER</string>
+    <string name="show_hide_widget">WIDGET</string>
+    <string name="show_hide_status">STATUS BAR SHOW/HIDE</string>
+    <string name="delete_update">DELETE</string>
+
+    <!--activity_recipe-->
+    <string name="daily">DAILY</string>
+    <string name="weekly">WEEKLY</string>
+    <string name="monthly">MONTHLY</string>
+    <string name="yearly">YEARLY</string>
+    <string name="life_time">LIFE TIME</string>
+
+
+    <!--activity_select-->
+    <string name="date">DATE</string>
+    <string name="final_exam_anniversary">Final exam, Anniversary</string>
+    <string name="time">TIME</string>
+    <string name="exercise_work_hour">Exercise, Work hour, School hours</string>
+    <string name="custom">CUSTOMIZE</string>
+    <string name="diet_book_custom">Diet, Reading</string>
+    <string name="recipe">RECIPE</string>
+    <string name="basic_ats">Basic ATs</string>
+
+    <!--activity_update_default_at-->
+    <string name="how_old_are_you">HOW OLD ARE YOU?</string>
+
+    <!--activity_update_weeklyday_at-->
+    <string name="START_DAY">START DAY</string>
+    <string name="SUN">SUN</string>
+    <string name="MON">MON</string>
+
+    <!--fragment_time_picker-->
+    <string name="pick_time">PICK TIME</string>
+    <string name="start_time">START TIME</string>
+    <string name="end_time">END TIME</string>
+
+    <!--undo_row-->
+    <string name="delete">DELETE</string>
+    <string name="cancel">CANCEL</string>
+
+    <!--inapp_alertdialog-->
+    <string name="alert_buy">BUY $1.09</string>
+    <string name="alert_restore">RESTORE PURCHASES</string>
+    <string name="alert_title">Oops!</string>
+    <string name="alert_message">Fail to purchase. Try again</string>
+    <string name="alert_ok">OK</string>
+    <string name="alert_positive">YES</string>
+    <string name="alert_free">FREE</string>
+    <string name="alert_fatal_error_title">PURCHASE ERROR</string>
+    <string name="alert_fatal_error_message">\n\nPlease contact us,\nhttp://favorie.wix.com/home</string>
+
+    <!--alarm_alertdialog-->
+    <string name="alarm_ok">CLOSE</string>
+    <string name="alarm_top_free_events">FREE EVENTS!</string>
+    <string name="alarm_top_one_plus_one">BUY1 GET1 FREE!</string>
+
+    <!--delete_alertdialog-->
+    <string name="delete_alert_title">DELETE</string>
+    <string name="delete_alert_contents">DO YOU WANT TO REALLY DELETE?</string>
+    <string name="delete_alert_positive">OK</string>
+    <string name="delete_alert_negative">CANCEL</string>
+
+    <!--for java code-->
+    <string name="done">DONE</string>
+    <string name="great">GREAT!</string>
+    <string name="when_start_date">START DATE?</string>
+    <string name="when_end_date">END DATE?</string>
+    <string name="when_select_date">DATE?</string>
+    <string name="too_old">TOO OLD!</string>
+    <string name="select_year">JUMP TO DATE</string>
+
+    <!--inapp toast-->
+    <string name="inapp_success">PURCHASE SUCCESS!</string>
+    <string name="inapp_already_purchase">ALREADY PURCHASED!</string>
+
+    <!--default 5 data-->
+    <string name="default_yearly">YEARLY</string>
+    <string name="default_monthly">MONTHLY</string>
+    <string name="default_weekly">WEEKLY</string>
+    <string name="default_daily">DAILY</string>
+    <string name="default_life_time">LIFE TIME</string>
+    <string name="default_exam">EXAM</string>
+    <string name="default_anniv">ANNIV</string>
+    <string name="default_exercise">EXERCISE</string>
+    <string name="default_diet">DIET</string>
+
+
+    <!--MONTHLY, WEEKLY-->
+    <string name="sunday">Sun</string>
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+
+    <string name="january">Jan</string>
+    <string name="february">Feb</string>
+    <string name="march">Mar</string>
+    <string name="april">Apr</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">Aug</string>
+    <string name="september">Sept</string>
+    <string name="october">Oct</string>
+    <string name="november">Nov</string>
+    <string name="december">Dec</string>
+
+</resources>

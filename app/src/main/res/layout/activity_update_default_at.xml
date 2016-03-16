@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_background_blue"
+    tools:context="co.favorie.at.UpdateDefaultATActivity">
+
+    <include
+        android:id="@+id/update_default_at_activity_action_detail_bar"
+        layout="@layout/at_action_detail_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="86dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/update_default_at_activity_action_detail_bar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f3bd29"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/update_weeklyday_at_activity_edittext"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#f3bd29"
+                    android:gravity="center"
+                    android:hint="@string/START_DAY"
+                    android:textColorHint="#ffffff"
+                    android:inputType="number"
+                    android:textColor="#5a5a5a"
+                    android:textSize="13dp"
+                    android:layout_weight="1" />
+                <Button
+                    android:id="@+id/update_sun_at_activity_bt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/selector_button"
+                    android:gravity="center"
+                    android:hint="@string/SUN"
+                    android:textColorHint="#ffffff"
+                    android:textSize="13dp"
+                    android:layout_weight="1" />
+                <Button
+                    android:id="@+id/update_mon_at_activity_bt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/selector_button"
+                    android:gravity="center"
+                    android:hint="@string/MON"
+                    android:textColorHint="#ffffff"
+                    android:textSize="13dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/update_default_at_activity_edittext"
+                android:layout_width="fill_parent"
+                android:layout_height="56dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="#f5e196"
+                android:gravity="center"
+                android:hint="@string/how_old_are_you"
+                android:textColorHint="#929497"
+                android:inputType="number"
+                android:textColor="#5a5a5a"
+                android:textSize="18dp" />
+
+            <include
+                android:id="@+id/update_default_at_activity_recyclerview_and_widget_module"
+                layout="@layout/at_recyclerview_and_widget_module" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                android:text="@string/delete_update"
+                android:textSize="15dp"
+                android:background="@color/progressbar_red"
+                android:textColor="@color/white"
+                android:id="@+id/btn_remove"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

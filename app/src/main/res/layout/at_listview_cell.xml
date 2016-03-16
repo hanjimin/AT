@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<co.favorie.at.customview.CellLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/at_listview_one_cell"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="111dp">
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgbtn_thumb"
+            android:background="@android:color/transparent"/>
+
+        <co.favorie.at.customview.ATCustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:textColor="@color/caldroid_black"
+            android:gravity="center"
+            android:width="50dp"
+            android:id="@+id/txt_label"
+            android:background="@android:color/transparent"/>
+
+        <co.favorie.at.customview.AnimatingSeekBar
+            android:id="@+id/cell_seekbar"
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="17dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="33dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:indeterminate="false"
+            android:maxHeight="0dp"
+            android:minHeight="0dp"
+            android:paddingEnd="30dp"
+            android:paddingStart="30dp"
+            android:progressDrawable="@drawable/styled_progress" />
+
+        <ImageView
+            android:id="@+id/cell_imageview_dot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/cell_textview_title"
+            android:layout_alignTop="@+id/cell_textview_title"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/listview_dot" />
+
+        <co.favorie.at.customview.ATCustomTextView
+            android:id="@+id/cell_textview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="14dp"
+            android:gravity="start|center_vertical"
+            android:text="TITLE"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+        <co.favorie.at.customview.ATCustomTextView
+            android:id="@+id/cell_textview_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="14dp"
+            android:gravity="end|center_vertical"
+            android:text="100%"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+        <co.favorie.at.customview.ATCustomTextView
+            android:id="@+id/cell_textview_start"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="14dp"
+            android:gravity="center"
+            android:text="Start"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="13dp" />
+
+        <co.favorie.at.customview.ATCustomTextView
+            android:id="@+id/cell_textview_end"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="14dp"
+            android:gravity="center"
+            android:text="End"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="13dp" />
+    </RelativeLayout>
+</co.favorie.at.customview.CellLayout>

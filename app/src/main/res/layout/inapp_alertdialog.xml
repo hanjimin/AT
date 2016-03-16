@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4DFBA"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:id="@+id/inapp_cancelBtn"
+        android:src="@drawable/dialog_cancel"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <ImageView
+            android:layout_width="61dp"
+            android:layout_height="81dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/inapp_imageCharacter"
+            android:src="@drawable/characterbartsimpson"/>
+        <ImageView
+            android:layout_width="61dp"
+            android:layout_height="81dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_toRightOf="@+id/inapp_imageCharacter"
+            android:src="@drawable/characterharry"
+            android:visibility="gone"
+            android:id="@+id/inapp_imageCharacter_next"/>
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@color/progressbar_red"
+        android:textColor="@color/white"
+        android:text="@string/alert_buy"
+        android:id="@+id/inapp_buyBtn"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="@string/alert_restore"
+        android:id="@+id/inapp_restoreBuyBtn"/>
+
+</LinearLayout>

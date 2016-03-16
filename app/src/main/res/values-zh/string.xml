@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AT</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_select">SelectActivity</string>
+    <string name="title_activity_date_detail">DateDetailActivity</string>
+    <string name="title_activity_date_picker">DatePickerActivity</string>
+    <string name="title_activity_time_detail">TimeDetailActivity</string>
+    <string name="title_activity_update_default_at">UpdateDefaultATActivity</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_recipe">RecipeActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+
+    <!--activity_main-->
+    <string name="blank_text">尝试制定新AT吧!</string>
+
+
+    <!--activity_date_detail-->
+    <string name="input_at_name">输入AT名称</string>
+    <string name="input_date_start_end">开始日期 - 结束日期</string>
+    <string name="input_date_select">选择日期</string>
+    <string name="tab_widget_period">期间</string>
+    <string name="tab_widget_date">日</string>
+    <!--activity_time_detail-->
+    <string name="input_time_start_end">开始时间 - 结束时间</string>
+    <!--activity_custom_detail-->
+    <string name="input_time_start">开始</string>
+    <string name="input_time_now">现在</string>
+    <string name="input_time_end">结束</string>
+    <string name="input_time_unit">单位</string>
+
+
+    <!--at_recyclerview_and_widget_module-->
+    <string name="select_character">选择人物形象</string>
+    <string name="show_hide_widget">WIDGET</string>
+    <string name="show_hide_status">STATUS BAR 显示/隐藏</string>
+    <string name="delete_update">删除</string>
+
+    <!--activity_recipe-->
+    <string name="daily">今天</string>
+    <string name="weekly">本周</string>
+    <string name="monthly">本月</string>
+    <string name="yearly">今年</string>
+    <string name="life_time">一生</string>
+
+
+    <!--activity_select-->
+    <string name="date">日期</string>
+    <string name="final_exam_anniversary">期末考试，高考，情侣纪念日</string>
+    <string name="time">时间</string>
+    <string name="exercise_work_hour">运动时间，上课时间，工作时间</string>
+    <string name="custom">CUSTOMIZE</string>
+    <string name="diet_book_custom">减肥，看书</string>
+    <string name="recipe">RECIPE</string>
+    <string name="basic_ats">推荐AT</string>
+
+    <!--activity_update_default_at-->
+    <string name="how_old_are_you">请输入年龄。</string>
+
+    <!--activity_update_weeklyday_at-->
+    <string name="START_DAY">开始日</string>
+    <string name="SUN">周日</string>
+    <string name="MON">周一</string>
+
+    <!--undo_row-->
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+
+    <!--inapp_alertdialog-->
+    <string name="alert_buy">立即购买 $1.09</string>
+    <string name="alert_restore">恢复购买</string>
+    <string name="alert_title">诶!</string>
+    <string name="alert_message">支付失败, 请重新尝试</string>
+    <string name="alert_ok">取消</string>
+    <string name="alert_positive">好</string>
+    <string name="alert_free">免费应用</string>
+    <string name="alert_fatal_error_title">支付失败</string>
+    <string name="alert_fatal_error_message">\n\n"主机交易未知原因失败。\n如有问题请联系
+favorie@favorie.co"</string>
+
+    <!--alarm_alertdialog-->
+    <string name="alarm_ok">好</string>
+    <string name="alarm_top_free_events">免费活动！</string>
+    <string name="alarm_top_one_plus_one">买一送一活动！</string>
+
+    <!--delete_alertdialog-->
+    <string name="delete_alert_title">删除</string>
+    <string name="delete_alert_contents">确认删除吗？</string>
+    <string name="delete_alert_positive">好</string>
+    <string name="delete_alert_negative">取消</string>
+
+    <!--inapp toast-->
+    <string name="inapp_success">支付成功！</string>
+    <string name="inapp_already_purchase">已买到的宝贝！</string>
+
+
+    <!--fragment_time_picker-->
+    <string name="pick_time">请选择时间!</string>
+    <string name="start_time">开始时间</string>
+    <string name="end_time">结束时间</string>
+
+    <!--for java code-->
+    <string name="done">完成</string>
+    <string name="great">不错!</string>
+    <string name="when_start_date">什么时候开始？</string>
+    <string name="when_end_date">什么时候结束?</string>
+    <string name="when_select_date">选择日期!</string>
+    <string name="select_year">移动到</string>
+
+
+    <!--default 5 datum-->
+    <string name="default_yearly">今年</string>
+    <string name="default_monthly">本月</string>
+    <string name="default_weekly">本周</string>
+    <string name="default_daily">今天</string>
+    <string name="default_life_time">一生</string>
+    <string name="default_exam">考试</string>
+    <string name="default_anniv">纪念日</string>
+    <string name="default_exercise">运动</string>
+    <string name="default_diet">减肥</string>
+
+    <!--MONTHLY, WEEKLY-->
+    <string name="sunday">周日</string>
+    <string name="monday">周一</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="thursday">周四</string>
+    <string name="friday">周五</string>
+    <string name="saturday">周六</string>
+
+    <string name="january">1月</string>
+    <string name="february">2月</string>
+    <string name="march">3月</string>
+    <string name="april">4月</string>
+    <string name="may">5月</string>
+    <string name="june">6月</string>
+    <string name="july">7月</string>
+    <string name="august">8月</string>
+    <string name="september">9月</string>
+    <string name="october">10月</string>
+    <string name="november">11月</string>
+    <string name="december">12月</string>
+</resources>

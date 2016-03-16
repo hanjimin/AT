@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- UnSelected states -->
+    <item android:state_focused="false" android:state_selected="false" android:state_pressed="false" android:color="@color/text_hint" />
+    <item android:state_focused="false" android:state_selected="false" android:state_pressed="true" android:color="@color/text_hint" />
+    <!-- Selected states -->
+    <item android:state_focused="false" android:state_selected="true" android:state_pressed="false" android:color="@color/progressbar_red" />
+    <item android:state_focused="false" android:state_selected="true" android:state_pressed="true" android:color="@color/progressbar_red" />
+</selector>

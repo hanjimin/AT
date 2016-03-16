@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<co.favorie.at.ATRecyclerViewAndWidgetModule xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/at_recyclerview_and_widget_module_recyclerview_container"
+        android:layout_width="match_parent"
+        android:layout_height="277dp"
+        android:background="#70BCC4">
+
+        <co.favorie.at.customview.ATCustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="38dp"
+            android:text="@string/select_character"
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/at_recyclerview_and_widget_module_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="73dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/at_recyclerview_and_widget_module_widget_container"
+        android:layout_width="match_parent"
+        android:layout_height="277dp"
+        android:background="#212432">
+
+
+        <!--위젯 부분-->
+            <LinearLayout
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <co.favorie.at.customview.ATCustomTextView
+                    android:id="@+id/widget_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/show_hide_widget"
+                    android:layout_marginBottom="40dp"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+
+                <co.favorie.at.widget.ATWidget
+                    android:id="@+id/at_recyclerview_and_widget_module_widget_button"
+                    android:layout_width="50dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/switch_on" />
+            </LinearLayout>
+
+
+                <co.favorie.at.customview.ATCustomTextView
+                    android:id="@+id/status_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="38dp"
+                    android:text="@string/show_hide_status"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+
+                <co.favorie.at.notification.ATNotification
+                    android:id="@+id/at_recyclerview_and_notification_module_notification_button"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:layout_marginBottom="50dp"
+                    android:background="@drawable/widget_button_show" />
+    </RelativeLayout>
+</co.favorie.at.ATRecyclerViewAndWidgetModule>

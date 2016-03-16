@@ -1,0 +1,1 @@
+alter table AT_SCHEDULE_DATUM add TAB_INDEX;

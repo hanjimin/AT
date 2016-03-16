@@ -1,0 +1,1 @@
+drop table AT_PURCHASE_DATUM;

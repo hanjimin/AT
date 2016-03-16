@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.favorie.at.DateDetailActivity">
+
+    <include
+        android:id="@+id/date_detail_activity_action_detail_bar"
+        layout="@layout/at_action_detail_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="86dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date_detail_activity_action_detail_bar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:background="#f3bd29"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/date_detail_activity_title_edittext"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/input_bg"
+                    android:gravity="center"
+                    android:hint="@string/input_at_name"
+                    android:textColor="@color/text_main"
+                    android:textColorHint="@color/text_hint"
+                    android:textSize="18dp" />
+
+                <TabHost
+                    android:id="@+id/date_detail_tabHost"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:tabStripEnabled="false">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="15dp"
+                        android:orientation="vertical">
+
+                        <TabWidget
+                            android:id="@android:id/tabs"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="@color/input_bg_unselected" />
+
+                        <FrameLayout
+                            android:id="@android:id/tabcontent"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp">
+
+                            <Button
+                                android:id="@+id/tab_content_period"
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginTop="0dp"
+                                style="?android:attr/borderlessButtonStyle"
+                                android:background="@color/input_bg"
+                                android:focusable="false"
+                                android:text="@string/input_date_start_end"
+                                android:textColor="@color/text_hint"
+                                android:textSize="18dp" />
+
+                            <Button
+                                android:id="@+id/tab_content_date"
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginTop="0dp"
+                                style="?android:attr/borderlessButtonStyle"
+                                android:background="@color/input_bg"
+                                android:focusable="false"
+                                android:text="@string/input_date_select"
+                                android:textColor="@color/text_hint"
+                                android:textSize="18dp" />
+                        </FrameLayout>
+                    </LinearLayout>
+                </TabHost>
+            </LinearLayout>
+
+            <include
+                android:id="@+id/date_detail_activity_recyclerview_and_widget_module"
+                layout="@layout/at_recyclerview_and_widget_module" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="@string/delete_update"
+                android:textSize="15dp"
+                android:background="@color/progressbar_red"
+                android:textColor="@color/white"
+                android:id="@+id/btn_remove"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="calendar_selected_color">#ffd25a</color>
+    <color name="calendar_not_selected_color">#ffffff</color>
+    <color name="default_background">#faf0e1</color>
+    <color name="default_background_blue">#006482</color>
+    <color name="progressbar_red">#E64B55</color>
+    <color name="status_red_dark">#cc3746</color>
+    <color name="white">#ffffff</color>
+    <color name="text_main">#5a5a5a</color>
+    <color name="text_hint">#929497</color>
+    <color name="input_bg">#f5e196</color>
+    <color name="input_bg_unselected">#dcecd88e</color>
+    <color name="selected_year_month_bg">#70bcc4</color>
+
+    <color name="recipe1">#f3bd29</color>
+    <color name="recipe2">#ed8b7e</color>
+    <color name="recipe3">#abd8cc</color>
+    <color name="recipe4">#70bcc4</color>
+    <color name="recipe5">#bbbc7d</color>
+    <color name="recipe6">#f4b98c</color>
+    <color name="recipe7">#9e9dba</color>
+    <color name="recipe8">#a3b6bf</color>
+    <color name="recipe9">#77b7a5</color>
+
+
+    <string-array name="list_bg">
+        <item>#ABD8CC</item>   <!--0-->
+        <item>#C8DCCF</item>   <!--1-->
+        <item>#EBEBBE</item>    <!--2-->
+        <item>#FEE1A1</item>    <!--3-->
+        <item>#F7D38B</item>    <!--4-->
+        <item>#F4B98C</item>    <!--5-->
+        <item>#F29F83</item>    <!--6-->
+        <item>#ED8B7E</item>    <!--7-->
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

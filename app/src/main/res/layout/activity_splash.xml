@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E64B55"
+    tools:context="co.favorie.at.SplashActivity">
+
+
+    <ImageView
+        android:id="@+id/splash_logo"
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        android:src="@drawable/at_actionbar_logo"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/copyright_favorie" />
+
+</RelativeLayout>

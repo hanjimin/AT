@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical" tools:context="co.favorie.at.RecipeActivity">
+
+    <include
+        layout="@layout/at_action_bar_recipe"
+        android:layout_width="fill_parent"
+        android:layout_height="86dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/recipe_activity_action_bar"></include>
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:scrollbars="none"
+        android:background="#f5e196"
+        android:id="@+id/grid_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:numColumns="3"
+        android:columnWidth="90dp"
+        android:padding="10dp"
+        android:verticalSpacing="10dp"
+        android:gravity="center"
+        android:stretchMode="columnWidth" >
+        </GridView>
+</LinearLayout>

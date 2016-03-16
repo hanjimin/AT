@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/noti_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55000000">
+
+    <TextView
+        android:id="@+id/noti_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:text="title"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/noti_percentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:text="percentage"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/noti_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:text="13:30"
+        android:textColor="@color/white"
+        android:textSize="10dp" />
+
+    <RelativeLayout
+        android:id="@+id/noti_char_pos_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3dp">
+        <ImageView
+            android:id="@+id/noti_graph"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/noti_mid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="95dp"
+            android:gravity="center"
+            android:text="Mid"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="10dp" />
+        <TextView
+            android:id="@+id/noti_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="50dp"
+            android:gravity="center"
+            android:text="17:42"
+            android:textSize="10dp"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.favorie.at.TimeDetailActivity">
+
+    <include
+        android:id="@+id/time_detail_activity_action_detail_bar"
+        layout="@layout/at_action_detail_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="86dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time_detail_activity_action_detail_bar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="157dp"
+                android:background="#f3bd29"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/time_detail_activity_title_edittext"
+                    android:layout_width="fill_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#f5e196"
+                    android:gravity="center"
+                    android:hint="@string/input_at_name"
+                    android:textColor="#5a5a5a"
+                    android:textColorHint="#929497"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/time_detail_activity_picker_button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#f5e196"
+                    android:focusable="false"
+                    android:hint="@string/input_time_start_end"
+                    android:textColor="#5a5a5a"
+                    android:textColorHint="#929497"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <include
+                android:id="@+id/date_detail_activity_recyclerview_and_widget_module"
+                layout="@layout/at_recyclerview_and_widget_module" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="@string/delete_update"
+                android:textSize="15dp"
+                android:background="@color/progressbar_red"
+                android:textColor="@color/white"
+                android:id="@+id/btn_remove"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

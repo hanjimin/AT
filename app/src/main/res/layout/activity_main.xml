@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_background"
+    tools:context="co.favorie.at.MainActivity">
+
+    <include
+        android:id="@+id/main_activity_action_bar"
+        layout="@layout/at_action_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="86dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"></include>
+
+    <com.nhaarman.listviewanimations.itemmanipulation.DynamicListView
+        android:id="@+id/main_activity_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/main_activity_action_bar"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/default_character_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:src="@drawable/default_character" />
+
+        <co.favorie.at.customview.ATCustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/blank_text"
+            android:textSize="12sp"/>
+    </LinearLayout>
+</RelativeLayout>
